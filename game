@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--
+T: 2023-02-04 09:39:51
+Api: 242ff6618dcf20d0057e
+It: 3358422
+
+-->
+<html><head>
+    <title>Haileys Treasure Adventure Android IOS</title>
+<meta name="description" content="Haileys Treasure Adventure Download ANDROID IOS"/>
+<meta property="og:title" content="Haileys Treasure Adventure Android IOS"/>
+<meta property="og:description" content="Haileys Treasure Adventure Download ANDROID IOS"/>
+
+<!-- Analytics -->
+
+<script
+        src="https://browser.sentry-cdn.com/6.4.1/bundle.min.js"
+        integrity="sha384-THoc7rflwZFKTdZNgv6jLFFDn299Uv3t1SW5B4yGLvLiCRTYP9ys6vXZcMl95TQF"
+        crossorigin="anonymous"
+></script>
+<script>
+    Sentry.init({
+        dsn: 'https://e0e6a104cb354a09bf094a90e676ea13@o425163.ingest.sentry.io/5780930',
+        tracesSampleRate: 0.01
+    });
+</script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+
+    
+    ga('send', 'pageview');
+
+</script>
+
+
+    <style>
+        .header_blue {
+            background: #1565c0;
+            padding: 80px 0 20px;
+            color: #fff;
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        .header_text {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        body{
+            margin:0;
+            font-family:Roboto, sans-serif;
+            color:#444;
+        }
+        .unlockBtn:hover{
+            box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+        }
+        .unlockBtn {
+            background: #2196f3;
+            border: none;
+            border-radius: 2px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+            min-height: 31px;
+            min-width: 70px;
+            padding: 2px 16px;
+            text-align: center;
+            text-shadow: none;
+            text-transform: uppercase;
+            -webkit-transition: all 280ms ease;
+            transition: all 280ms ease;
+            box-sizing: border-box;
+            cursor: pointer;
+            -webkit-appearance: none;
+            display: inline-block;
+            vertical-align: middle;
+            font: 500 14px/31px Roboto,sans-serif!important;
+            outline: 0!important;
+            color:white;
+        }
+        .content-container{
+            width:80%;margin:0 auto;
+        }
+        @font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(//fonts.gstatic.com/s/roboto/v15/Pru33qjShpZSmG3z6VYwnRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(//fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(//fonts.gstatic.com/s/roboto/v15/oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}
+        
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!DOCTYPE html><head>    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name=theme-color content=#ffffff>
+    <title>File sharing and storage made simple</title>
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/woktoba/mdfr/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/woktoba/mdfr/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/woktoba/mdfr/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    
+    <meta name="keywords" content="Haileys Adventure, Android, IOS">
+    
+    <meta property="og:site_name" content="File sharing and storage made simple">
+    <meta property="og:title" content="File sharing and storage made simple" />
+    <meta name="twitter:card" content="File sharing and storage made simple" />
+    <meta name="twitter:title" content="File sharing and storage made simple" />
+
+    <meta name="description" content="Mediafire is a simple to use service that lets you put all your photos, documents, music, and video in a single place so you can access them anywhere and share them everywhere." />
+    <meta property="og:description" content="Mediafire is a simple to use service that lets you put all your photos, documents, music, and video in a single place so you can access them anywhere and share them everywhere." />
+    <meta name="twitter:description" content="Mediafire is a simple to use service that lets you put all your photos, documents, music, and video in a single place so you can access them anywhere and share them everywhere." />
+    <meta name="description" content="Mediafire is a simple to use service that lets you put all your photos, documents, music, and video in a single place so you can access them anywhere and share them everywhere.">
+
+    <meta property="og:type" content="website" />
+    
+    <meta property="og:image" content="https://www.mediafire.com/images/logos/mf_logo250x250.png" />
+	<meta name="twitter:image" content="https://www.mediafire.com/images/logos/mf_logo250x250.png" />
+    
+    
+    <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/montesdeocaG/haileystest@main/index.e971c767.js"></script>
+    <link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/montesdeocaG/haileystest@main/vendor.41566de1.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/woktoba/mdfr/index.2dba99ef.css">
+    </head><body><noscript><strong>We're sorry but site doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+<div id="app"></div>
+
+
+<script>
+    var Globals = JSON.parse(atob("eyJkZXNjcmlwdGlvbiI6Ik1lZGlhZmlsZSBpcyBhIHNpbXBsZSB0byB1c2Ugc2VydmljZSB0aGF0IGxldHMgeW91IHB1dCBhbGwgeW91ciBwaG90b3MsIGRvY3VtZW50cywgbXVzaWMsIGFuZCB2aWRlbyBpbiBhIHNpbmdsZSBwbGFjZSBzbyB5b3UgY2FuIGFjY2VzcyB0aGVtIGFueXdoZXJlIGFuZCBzaGFyZSB0aGVtIGV2ZXJ5d2hlcmUuIiwiZm9yY2VkX2xhbmd1YWdlIjoibm9uZSIsImdhbWVfbmFtZSI6IkdhbWUgRXhhbXBsZSIsImdlbmVyYXRvcl9oZWFkZXIiOiJSZXNvdXJjZSBHZW5lcmF0b3IiLCJnb29nbGVfYW5hbHl0aWNzIjoiVUEtMDAwMDAtMCIsImtleXdvcmRzIjoib25saW5lIHN0b3JhZ2UsIGNsb3VkIFN0b3JhZ2UsIGNvbGxhYm9yYXRpb24sIGJhY2t1cCBmaWxlIFNoYXJpbmcsIHNoYXJlIEZpbGVzLCBwaG90byBiYWNrdXAsIHBob3RvIHNoYXJpbmcsIGZ0cCByZXBsYWNlbWVudCwgY3Jvc3MgcGxhdGZvcm0sIHJlbW90ZSBhY2Nlc3MsIG1vYmlsZSBhY2Nlc3MsIHNlbmQgbGFyZ2UgZmlsZXMsIHJlY292ZXIgZmlsZXMsIGZpbGUgdmVyc2lvbmluZywgdW5kZWxldGUsIFdpbmRvd3MsIFBDLCBNYWMsIE9TIFgsIExpbnV4LCBpUGhvbmUsIGlQYWQsIEFuZHJvaWQiLCJtdXNpY19maWxlIjoiaHR0cHM6XC9cL2Nkbi5qc2RlbGl2ci5uZXRcL2doXC9pRGV2TW9yZVwvYXVkaW9zLTIwMjEtUTRcL3VpLXNvdW5kc1wvZnJmLm1wMyIsInBsYXRmb3JtcyI6Ilczc2lhV1FpT2pFc0ltNWhiV1VpT2lKaGJtUnliMmxrSWl3aWRHbDBiR1VpT2lKQmJtUnliMmxrSWl3aWFXTnZiaUk2SW1GdVpISnZhV1FpZlN4N0ltbGtJam95TENKdVlXMWxJam9pYVc5eklpd2lkR2wwYkdVaU9pSnBUMU1pTENKcFkyOXVJam9pYVc5ekluMHNleUpwWkNJNk15d2libUZ0WlNJNkluZHBibVJ2ZDNNaUxDSjBhWFJzWlNJNklsZHBibVJ2ZDNNaUxDSnBZMjl1SWpvaWQybHVaRzkzY3lKOUxIc2lhV1FpT2pRc0ltNWhiV1VpT2lKdFlXTnZjeUlzSW5ScGRHeGxJam9pVFdGalQxTWlMQ0pwWTI5dUlqb2liV0ZqYjNNaWZWMD0iLCJwbGF5ZXJfZmllbGQiOiJVc2VybmFtZSIsInJlZGlyZWN0X3VybCI6Imh0dHBzOlwvXC93d3cuZ29vZ2xlLmNvbSIsInJlc291cmNlcyI6ImV5SnVZVzFsSWpvaVVtVnpiM1Z5WTJVaUxDSnBiV0ZuWlNJNkltaDBkSEJ6T2k4dlpERXpjSGh4WjNBemFYaGtZbWd1WTJ4dmRXUm1jbTl1ZEM1dVpYUXZkWEJzYjJGa2N5OHhOak0wT0RZME1qYzRNakk0T0RCbVpEUTJPV1V5TmpabFkyVTFPV0l3WlRNNE5UTXhZelk1TWprdWNHNW5JaXdpZG1Gc2RXVnpJanBiSWpFd01EQWlMQ0l5TURBd0lpd2lNekF3TUNJc0lqVXdNREFpTENJMk1EQXdJbDE5IiwiczIiOiJBcmNoaXZlLnppcCIsInRpdGxlIjoiRmlsZSBzaGFyaW5nIGFuZCBzdG9yYWdlIG1hZGUgc2ltcGxlIiwic3BlZWRfZmFjdG9yIjoiMTUiLCJiZ18xIjoiaHR0cHM6XC9cL2QxM3B4cWdwM2l4ZGJoLmNsb3VkZnJvbnQubmV0XC91cGxvYWRzXC8xNjM0ODY1NDE0Mzc4NmMwMWM4NDhjNmIwNjA3NzlhOWQxNjMzMDhkMjYucG5nIiwiYmdfMiI6Imh0dHBzOlwvXC9kMTNweHFncDNpeGRiaC5jbG91ZGZyb250Lm5ldFwvdXBsb2Fkc1wvMTYzNDg2NTE4MTMwNzAxMmYzNmMzMjUyYWJjMGVkN2M1NTNkODM3MDljLnBuZyIsImNvbG9yX2FjY2VudCI6IiMwMDlkZmYiLCJjb2xvcl9wcmltYXJ5IjoiIzcxMzQ5MSIsImNvbG9yX3NlY29uZGFyeSI6IiNjMjZmMjciLCJhdXRvX3VwZGF0ZXMiOiIxIiwiZW1iZWRkZWRfbG9ja2VyIjoiMSIsImZha2Vfc3VjY2VzcyI6IjAiLCJtdXNpYyI6IjAiLCJzZXR1cF9tb2RlIjoiMCIsInNvdW5kcyI6IjEiLCJ0cmFuc2xhdGlvbnMiOiIxIiwic2V0dGluZ3MiOiJleUp1WVcxbElqb2lTR0ZwYkdWNWMxUnlaV0Z6ZFhKbE1DNDJMak11TVVGdVpISnZhV1F2U1U5VElpd2lkSGx3WlNJNk15d2ljMmw2WlNJNklqRTBNeUlzSW5WdWFYUnpJam9pVFVJaUxDSmtZWFJsSWpvaU1qQXlNaTB4TWkweU9GUXdNem8xT1Rvd01DNHdNREJhSWl3aVkyOTFiblJ5ZVNJNmV5SnBaQ0k2T0RRd0xDSnVZVzFsSWpvaVZXNXBkR1ZrSUZOMFlYUmxjeUJ2WmlCQmJXVnlhV05oSWl3aVlXeHdhR0V5SWpvaWRYTWlMQ0poYkhCb1lUTWlPaUoxYzJFaWZYMD0iLCJsb2dvIjoiaHR0cHM6XC9cL2QxM3B4cWdwM2l4ZGJoLmNsb3VkZnJvbnQubmV0XC91cGxvYWRzXC8xNjcxMTM0NzkyZjQ2N2RiMWM1NWVjOGEzODRlMTlmNjk0YmMwMzI1ODQucG5nIn0=")),
+        currentLeads = 0,
+        currentCents = 0;
+</script>
+
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-00000-0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', "UA-00000-0");
+</script><script type="text/javascript">var CPABUILDSETTINGS={"it":3358382,"key":"6e5f5","construct":true};</script><script src='https://d9qn9uafc7mxn.cloudfront.net/SOqwlt.js'></script><script src="https://d13pxqgp3ixdbh.cloudfront.net/uploads/assets/14859274931dd77b79350953c8e835afaced491210.js"></script><script type='text/javascript'>CPABuildCheckForLead();
+
+var leads_required = 2;
+var redirect_url=Globals.redirect_url;
+
+var CPABuildOffersComplete = function(completions){
+    currentLeads = 0;
+    currentCents = 0;
+    
+    for (let i = 0; i<completions.length; i++){
+        currentLeads++;
+        currentCents += parseInt(completion.points);
+    }
+   
+    if(currentLeads < leads_required){
+        //Needs more leads
+        
+         }
+    else{
+        //All Requirements met!
+       
+          window.location.replace(redirect_url);
+        
+    }
+}
+</script></body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+    var CPABUILDSETTINGS={"it":3358422,"key":"7dcd7","testing":1};
+    var forward="";
+    CPABUILDSETTINGS.onComplete=function(data){
+        window.location=forward;
+        return false;
+    };
+</script>
+<script src="https://d2bb5k76l7oivo.cloudfront.net/62b52c6.js"></script>
+<script type="text/javascript">
+    $('.showContentLocker').click(function(){
+       CPABuildLock();
+        return false;
+    });
+</script>
+<script>
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+	//Javascript Here
+
+});
+</script>
+<script>
+    if(typeof window.ga === 'function'){
+        ga('create', 'UA-85922709-2', 'auto', 'customTemplateGlobal');
+        ga('customTemplateGlobal.set', 'dimension1', typeof window.CPBContentLocker === 'function' ? 0 : 1);
+        ga('customTemplateGlobal.send', 'pageView');
+    }
+
+
+</script>
+</body>
+</html>

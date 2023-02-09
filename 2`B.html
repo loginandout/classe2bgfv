@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CLASSE 2`B</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <div class="navigation">
+		<ul>
+			<li class="list">
+				<a href="#">
+					<span class="icon">
+						<ion-icon name="home-outline"></ion-icon>
+					</span>
+					<span class="text">Home</span>
+				</a>
+			</li>
+			<li class="list">
+				<a href="#">
+					<span class="icon">
+						<ion-icon name="person-outline"></ion-icon>
+					</span>
+					<span class="text">Studenti</span>
+				</a>
+			</li>
+			<li class="list active">
+				<a href="#">
+					<span class="icon">
+						<ion-icon name="chatbubble-outline"></ion-icon>
+					</span>
+					<span class="text">Messages</span>
+				</a>
+			</li>
+			<li class="list">
+				<a href="#">
+					<span class="icon">
+						<ion-icon name="camera-outline"></ion-icon>
+					</span>
+					<span class="text">Photos</span>
+				</a>
+			</li>
+			<li class="list">
+				<a href="#">
+					<span class="icon">
+						<ion-icon name="settings-outline"></ion-icon>
+					</span>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<div class="indicator"></div>
+		</ul>
+  </div>
+	
+	<script>
+		const list = document.querySelectorAll('.list');
+		function activelink(){
+			list.forEach((item) =>
+			item.classList.remove('active'));
+			this.classList.add('active');
+		}
+		list.forEach((item) =>
+		item.addEventListener('click', activelink));
+	</script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <header>
+		<h1>CHAT</h1>
+		<form action="https://sheetdb.io/api/v1/ixgpehbuvdw8t" method="post" id="new-task-form">
+			<input 
+				type="text" 
+				name="data[new-task-input]" 
+				id="new-task-input" 
+				placeholder="Message" />
+                <button type="submit" id="new-task-submit">SEND</button>
+		</form>
+		<script>
+			var form = document.getElementById("sheetdb-form");
+			form.addEventListener("submit", e=>{
+				e.preventDefault();
+				fetch(form.action, {
+					method : "POST",
+					body: new FormData(document.getElementById("sheetdb-form")),
+				}).then(
+					response => response.json()
+				).then((html) =>{
+					window.open('');
+				});
+			});
+			</script>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>message</h2>
+
+			<div id="tasks">
+
+				<!-- <div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="A new task"
+							readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> -->
+
+			</div>
+		</section>
+	</main>
+
+	<script src="main.js"></script>
+</body>
+</html>
