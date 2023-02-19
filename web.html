@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Studenti</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="b.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -64,8 +65,48 @@
     list.forEach((item) =>
     item.addEventListener('click', activelink));
 </script>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/iI Feild nonicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<form action="https://sheetdb.io/api/v1/ixgpehbuvdw8t" method="post" id="sheetdb-form">
+    <div class="container">
+        <div class="box">
+            <h3></h3>
+            <div class="name">
+                <i class="fas fa-user"></i>
+                <input type="text" name="data[name]" placeholder="Name" id="name">
+            </div>
+            <div class="email">
+                <i class="fas fa-envelope"></i>
+                <input type="text" name="data[email to send]" placeholder="Email" id="email">
+            </div>
+            <div class="message-box">
+                <textarea id="msg" cols="30" name="data[message]" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div class="button">
+                <button id="send" onclick="message()">Inviare</button>
+            </div>
+            <div class="message">
+                <div class="success" id="success">Messaggio inviato con successo!</div>
+                <div class="danger" id="danger">I Feild non possono essere vuoti!</div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+var form = document.getElementById("sheetdb-form");
+form.addEventListener("submit", e=>{
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) =>{
+        window.open('s.html');
+    });
+});
+</script>
+    <script src="main.js"></script>
     <ul class="menu">
         <li>
             <a href="">studenti</a>

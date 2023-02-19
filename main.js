@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
 
 		const task = input.value;
 
-		const task_el = document.createElement('div')
+		const task_el = document.createElement('div');
 		task_el.classList.add('task');
 
 		const task_content_el = document.createElement('div');
@@ -22,12 +22,6 @@ window.addEventListener('load', () => {
 		task_input_el.value = task;
 		task_input_el.setAttribute('readonly', 'readonly');
 
-
-
-
-
-		
-
 		task_content_el.appendChild(task_input_el);
 
 		const task_actions_el = document.createElement('div');
@@ -35,11 +29,11 @@ window.addEventListener('load', () => {
 		
 		const task_edit_el = document.createElement('button');
 		task_edit_el.classList.add('edit');
-		task_edit_el.innerText = '';
+		task_edit_el.innerText = 'edit';
 
 		const task_delete_el = document.createElement('button');
 		task_delete_el.classList.add('delete');
-		task_delete_el.innerText = 'delete';
+		task_delete_el.innerText = 'Delete';
 
 		task_actions_el.appendChild(task_edit_el);
 		task_actions_el.appendChild(task_delete_el);
@@ -51,8 +45,8 @@ window.addEventListener('load', () => {
 		input.value = '';
 
 		task_edit_el.addEventListener('click', (e) => {
-			if (task_edit_el.innerTextd.toLowerCase() == "edit") {
-				task_edit_el.innerTexts = "Save";
+			if (task_edit_el.innerText.toLowerCase() == "edit") {
+				task_edit_el.innerText = "Save";
 				task_input_el.removeAttribute("readonly");
 				task_input_el.focus();
 			} else {
@@ -66,3 +60,30 @@ window.addEventListener('load', () => {
 		});
 	});
 });
+function message(){
+    var Name = document.getElementById('name');
+    var email = document.getElementById('email');
+    var msg = document.getElementById('msg');
+    const success = document.getElementById('success');
+    const danger = document.getElementById('danger');
+
+    if(Name.value === '' || email.value === '' || msg.value === ''){
+        danger.style.display = 'block';
+    }
+    else{
+        setTimeout(() => {
+            Name.value = '';
+            email.value = '';
+            msg.value = '';
+        }, 2000);
+
+        success.style.display = 'block';
+    }
+
+
+    setTimeout(() => {
+        danger.style.display = 'none';
+        success.style.display = 'none';
+    }, 4000);
+
+}

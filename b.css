@@ -155,10 +155,22 @@ input, button {
 	font-size: 1.25rem;
 }
 
+#new-task-name {
+	flex: 1 1 0%;
+	background-color: var(--darker);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	color: var(--light);
+	font-size: 1.25rem;
+}
 #new-task-input::placeholder {
 	color: var(--grey);
 }
 
+#new-task-name::placeholder {
+	color: var(--grey);
+}
 #new-task-submit {
 	color: var(--pink);
 	font-size: 1.25rem;
@@ -387,4 +399,25 @@ body{
 }
 .Scuola{
 	margin-bottom: 30px;
+}
+.mu{
+	text-align: center;
+	color: firebrick;
+}
+.mul{
+	text-align: center;
+	color: rgb(216, 159, 159);
+}
+.edit2{
+	margin-left: 530px;
+	color: rgb(255, 0, 0);
+	cursor: pointer;
+}
+.edit2:hover{
+	color: rgb(147, 15, 15);
+	border-radius: 10px;
+}
+.edit2:active{
+	color: rgb(157, 147, 147);
+	border-radius: 10px;
 }
